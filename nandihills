@@ -1,0 +1,15 @@
+task_description: 'Teach the model about Nandi hills'
+created_by: deepyes
+domain: trivia
+seed_examples:
+ - question: where is Nandi hills?
+   answer: Nandi hills in Bangalore 
+ - question: How far from blore ?
+   answer: It is around 60 km.
+ - question: How high from blore ?
+   answer: It is around 1900 ft.
+document:
+ repo: https://github.com/deepyes/nandi.git
+ commit: 
+ patterns:
+   - nandihills.md
