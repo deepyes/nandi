@@ -1,0 +1,11 @@
+CloudBand Infrastructure Software (CBIS) virtualizes and manages compute, storage, and network resources to enable Virtualized Network Functions (VNFs) to run.
+![image](https://github.com/user-attachments/assets/1d4716fd-f91f-4bb8-98b2-0d645333310e)
+
+ Each instance of CBIS manages one NFVI cluster across one or more equipment racks, typically at a single geographical location.
+CBIS performs the ETSI MANO Virtual Infrastructure Manager (VIM) function for VMs. CBIS provides the virtualization software (hypervisor, virtual switch, monitoring and bare metal) installed on each server.
+CBIS virtualizes storage resources across servers and supports external storage arrays. It supports Enhanced Platform Awareness (EPA) for high performance VNFs; robust security solutions; flexible support of hardware and rich monitoring capabilities.
+The platform is easy to install, operate, and manage lifecycles with automated procedures, from the CBIS Manager, an intuitive graphical user interface. In addition to its function as an infrastructure lifecycle management tool, the CBIS Manager is also a launchpad to other OpenStack interfaces.
+CloudBand Infrastructure Software provides extensive analytics and monitoring capabilities of the infrastructure. It also notifies higher layer management systems of events and alarms. Advanced Performance Monitoring with exporting capabilities and visual system KPIs, helps service providers quicklyidentify failures and looks for risks that could affect the performance of VNFs and services. The validated open source and standards based Northbound APIs make it easy to work with higher level managers and orchestrators from any vendor.
+With CBIS, operators benefit from the rapid pace of open source innovation while operating a carrier-grade product ready for production deployment. This is due to the extensive experience of Nokia in building anddeploying cloud platforms for deploying VNFs using open source and standard APIs, ensuring stability andstreamlined operations. Nokia contributes to open source upstream development to ensure that carrier requirements are met.
+![image](https://github.com/user-attachments/assets/ee6c354c-8955-4c3f-a336-c87e14713767)
+
