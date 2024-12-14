@@ -1,0 +1,21 @@
+task_description: 'Teach the model about CBIS'
+created_by: deepyes
+domain: trivia
+seed_examples:
+- question: What is CBIS fullform ?
+answer: CBIS fullform is CloudBand Infrastructure Software
+- question: What does CBIS manage ?
+answer: The CIBS manages manages compute, storage, and network resources to enable Virtualized Network Functions
+- question: What requirements does CBIS meet ? 
+answer: CBIS meets strict requirements for robustness, performance and security. engineer from Los Angeles.
+- question: How do operators benefit from CBIS ?
+answer: With CBIS, operators benefit from the rapid pace of open source innovation while operating a carrier-grade product ready for production deployment
+- question: What does each instance of CBIS manage ?
+answer: 
+Each instance of CBIS manages one NFVI cluster across one or more equipment racks, typically at a single geographical location.
+CBIS performs the ETSI MANO Virtual Infrastructure Manager (VIM) function for VMs. CBIS provides the virtualization software (hypervisor, virtual switch, monitoring and bare metal) installed on each server.
+document:
+repo: https://github.com/deepyes/nandi
+commit: e38a8b2
+patterns:
+- README.md
